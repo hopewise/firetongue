@@ -24,11 +24,7 @@
 package firetongue;
 
 import firetongue.FireTongue.Framework;
-#if (lime >= "7.0.0")
 import lime.utils.Assets as LimeAssets;
-#elseif (lime && !lime_legacy)
-import lime.Assets as LimeAssets;
-#end
 
 /**
  * ...
